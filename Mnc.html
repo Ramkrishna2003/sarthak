@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNC portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        .mnc-cards{
+            height: 250px;
+            display: flex ;
+            justify-content: space-around;
+            align-items: center;
+            overflow: hidden;
+            transform: translate(0px,9rem);
+           
+        }
+        .sector-card{
+            overflow: hidden;
+            margin-left: 15rem;
+            width: 100%;
+            border: 3px solid none;
+            border-radius: 15px;
+        }
+        .sector-card:hover{
+            opacity: 0.7;
+        }
+        .valuation-card{
+            width: 100%;
+            border: 3px solid none;
+            border-radius: 15px;
+            scale: 60%;
+
+        }
+        .valuation-card:hover{
+            opacity: 0.7;
+        }
+        .sector-tags{
+            position: absolute;
+            font-size: 1.5rem;
+            font-weight: 800;
+            top: 4rem;
+            left: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .sector-tags a{
+            text-decoration: none;
+            color: black;
+            text-shadow: 0 0 15px grey;
+            line-height: 2.5rem;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="Assets/main-logo.jpg" alt="nav-logo" height="50px">
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Let's invest</a></li>
+                    <li><a href="contact.html">Search </a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><button><a href="login-options.html">Login</a></button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main> <section class="hero-section">
+        <div class="slide-show-container">
+            <img id="slide-3" class="slide-image" src="Assets/slide-3.jpg" alt="slide1">
+            <img id="slide-4" class="slide-image" src="Assets/slide-4.jpg" alt="slide2">
+            <div class="hero-text" style="position: relative; color: aqua;">
+                <div class="hero-lines">
+                    Let's Invest in future!!
+                </div>
+            </div> </div></main>
+            <div class="mnc-cards">
+                
+                <div class="sector-card" >
+                    <img src="Assets/sector.jpeg" alt="">
+                    <ul class="sector-tags">
+                        <li><a href="">EdTech</a></li>
+                        <li><a href="">Health</a></li>
+                        <li><a href="">Finance</a></li>
+                    </ul>
+                </div>
+                <div class="valuation-card">
+                    <img src="Assets/valuation1.jpg" alt="">
+                    <ul class="sector-tags">
+                        <li><h3>Range: </h3></li>
+                        <li><a href="">&#8377;0-10Cr.</a></li>
+                        <li><a href="">&#8377;10-30Cr.</a></li>
+                        <li><a href="">&#8377;30-50Cr.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+            <img src="Assets/Sarthak.png" style="width: 100%;
+            height: 500px;
+            object-fit: cover;" alt="sarthak-img"></div>
+
+            <footer>
+                <div class="footer-main">
+                    <div class="left-foot">
+                        <div class="footer-logo">
+                            <img src="Assets/nav-logo.jpg" alt="">
+                        </div>
+                        <div class="tagline">
+                            <p>"Empowering Dreams, Fueling Growth: Bridging Finance for Small Businesses"</p>
+                        </div>
+                    </div>
+                    <div class="whatWeOffer">
+                        <ul>
+                            <li>
+                                <h3>What We Offer?</h3>
+                            </li>
+                            <li>Funding</li>
+                            <li>Search for Investors</li>
+                        </ul>
+                    </div>
+                    <div class="whoWeAre">
+                        <ul>
+                            <li>
+                                <h3>Company Overview</h3>
+                            </li>
+                            <li>Mission & Vision</li>
+                            <li>Sarthak Team</li>
+                        </ul>
+                    </div>
+                    <div class="right-foot">
+                        <form action="#">
+                            <h3>Newsletter</h3>
+                            <input type="email" placeholder="Email address">
+                            <button>Submit
+                            </button>
+                        </form>
+                            <!-- <div class="social-icons">
+                                <a href="https://instagram.com/geeksspire"><i
+                                        class="fa fa-instagram social-handles" aria-hidden="true"></i></a>
+                                <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i
+                                        class="fa fa-whatsapp social-handles" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/geeksspire/"><i
+                                        class="fa fa-linkedin social-handles" aria-hidden="true"></i></a>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="footer-down">
+                    <p>Copyright &copy; 2023 All Rights Reserved.</p>
+                </div>
+            </footer>
+        
+        <script src="index.js"></script>
+</body>
+</html>

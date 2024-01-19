@@ -1,15 +1,10 @@
 # Code Rebel Hackathon Project for Veersion Beta
 
-![Code Rebel Logo](main-logo.jpg)
+![Code Rebel Logo](./Assets/main-logo.jpg)
 
-Welcome to the Code Rebel team's hackathon project repository. Our project, named "Sarthak.com," is a web-based application designed to revolutionize the way businesses and consumers interact with digital content. In this README file, you will find essential information about the project, team members, setup instructions, usage, contribution guidelines, and licensing.
+Welcome to the project repository. Our project, named "Sarthak.com," is a web-based application designed to revolutionize the way businesses and consumers interact with digital content. In this README file, you will find essential information about the project,setup instructions, usage, contribution guidelines, and licensing.
 
-## Team Members
 
-- **Team Leader:** Ravi Baraskar (CSE)
-- **Member 2:** Sahil Vishwakarma (CSE)
-- **Member 3:** Shivam Kumar (CSE)
-- **Member 4:** Ramkrishna Dangi (IOT)
 
 ## Project Description
 
@@ -55,4 +50,4 @@ To get a copy of this project up and running on your local machine for developme
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Sahilvishwa2108/Code_Rebels.git
+   git clone https://github.com/Ramkrishna2003/sarthak.git
